@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Team ####</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <div class="brand">
+        <h1>Team ####</h1>
+        <span class="brand-subtitle">TOBENAMED</span>
+      </div>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="updates.html">Updates</a>
+        <a href="outreach.html">Outreach</a>
+        <a href="sponsor.html">Sponsors</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap wrap--home page-enter">
+    <div class="home-hero">
+      <div class="home-hero-top">
+        <div class="home-hero-main">
+          <div class="carousel" data-carousel>
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <div class="carousel-slide">
+                  <div class="carousel-slide-inner">
+                    <img src="placeholder.png" alt="" width="800" height="500" />
+                  </div>
+                </div>
+                <div class="carousel-slide">
+                  <div class="carousel-slide-inner">
+                    <img src="placeholder.png" alt="" width="800" height="500" />
+                  </div>
+                </div>
+                <div class="carousel-slide">
+                  <div class="carousel-slide-inner">
+                    <img src="placeholder.png" alt="" width="800" height="500" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="carousel-arrow carousel-arrow--prev" data-carousel-prev aria-label="Previous image">
+              <span aria-hidden="true">‹</span>
+            </button>
+            <button type="button" class="carousel-arrow carousel-arrow--next" data-carousel-next aria-label="Next image">
+              <span aria-hidden="true">›</span>
+            </button>
+            <button type="button" class="carousel-zoom-btn" data-carousel-zoom aria-label="View larger">
+              <svg class="carousel-zoom-icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2" />
+                <path d="M16 16l5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <path d="M11 8v6M8 11h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+          </div>
+          <div class="home-hero-aside">
+            <p class="home-hero-teamname">TEAMNAME</p>
+            <a href="about.html" class="btn-gallery">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-hero-secondary">
+        <p class="home-hero-tagline">Explore Our Latest Updates</p>
+        <div class="home-hero-actions">
+          <a href="gallery.html" class="btn-gallery home-hero-actions-gallery">Gallery</a>
+          <div class="home-hero-sponsor-strip">
+            <p class="home-support-label">Support Us</p>
+            <a href="sponsor.html" class="btn-gallery">Sponsors</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div
+    class="lightbox"
+    id="carousel-lightbox"
+    hidden
+    role="dialog"
+    aria-modal="true"
+    aria-label="Enlarged image"
+    aria-hidden="true"
+  >
+    <div class="lightbox-backdrop" data-lightbox-close tabindex="-1"></div>
+    <button type="button" class="lightbox-minimize" data-lightbox-minimize aria-label="Minimize">
+      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="4 14 10 14 10 20" />
+        <polyline points="20 10 14 10 14 4" />
+        <line x1="14" y1="10" x2="21" y2="3" />
+        <line x1="10" y1="14" x2="3" y2="21" />
+      </svg>
+    </button>
+    <button type="button" class="lightbox-arrow lightbox-arrow--prev" data-lightbox-prev aria-label="Previous image">
+      <span aria-hidden="true">‹</span>
+    </button>
+    <button type="button" class="lightbox-arrow lightbox-arrow--next" data-lightbox-next aria-label="Next image">
+      <span aria-hidden="true">›</span>
+    </button>
+    <img class="lightbox-img" src="" alt="" />
+  </div>
+
+  <footer class="site-footer-reveal">
+    <p>&copy; 2026 Team ####. All rights reserved.</p>
+  </footer>
+
+  <script src="js/footer-reveal.js" defer></script>
+  <script src="js/carousel.js" defer></script>
+</body>
+</html>
